@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jogging Schedule</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #e8f5e9;
+            text-align: center;
+            padding: 20px;
+            color: #2e7d32;
+        }
+        .container {
+            background-color: white;
+            border-radius: 15px;
+            padding: 30px;
+            max-width: 600px;
+            margin: 0 auto;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        }
+        h1 {
+            color: #1b5e20;
+            margin-bottom: 20px;
+        }
+        .schedule {
+            margin: 30px 0;
+            text-align: left;
+            padding: 0 20px;
+        }
+        .day {
+            display: flex;
+            justify-content: space-between;
+            padding: 10px 0;
+            border-bottom: 1px solid #e0e0e0;
+        }
+        .weekend {
+            background-color: #c8e6c9;
+            font-weight: bold;
+            border-radius: 5px;
+            padding: 10px;
+        }
+        .back-btn {
+            background-color: #2196f3;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            font-size: 14px;
+            border-radius: 50px;
+            cursor: pointer;
+            margin-top: 20px;
+            transition: transform 0.2s;
+        }
+        .back-btn:hover {
+            transform: scale(1.05);
+            background-color: #1976d2;
+        }
+        .runners {
+            font-size: 40px;
+            margin: 20px 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="runners">🏃‍♂️🏃‍♀️</div>
+        <h1>Our Jogging Schedule</h1>
+        <p>Let's make every weekend active and fun!</p>
+        
+        <div class="schedule">
+            <div class="day">Monday <span>Work Day (Scheduled my long runs here)</span></div>
+            <div class="day">Tuesday <span>Optional: Short Run</span></div>
+            <div class="day">Wednesday <span>Work Day</span></div>
+            <div class="day">Thursday <span>Optional: Short Run (Mood booster run lang)</span></div>
+            <div class="day">Friday <span>Work Day</span></div>
+            <div class="day weekend">Saturday <span>Jogging Day! 6:00 AM</span></div>
+            <div class="day weekend">Sunday <span>Jogging Day! 6:00 AM</span></div>
+        </div>
+        
+        <p>We'll meet nalang depende kung saan ang ruta. Don't forget your water bottle!</p>
+        
+        <button class="back-btn" onclick="window.location.href='index1.html'">Back to Home</button>
+    </div>
+</body>
+</html>
